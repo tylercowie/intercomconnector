@@ -1,0 +1,15 @@
+export const buildConversationPart = (seed = 1, overrides = {}) => ({
+    author: {name: `Author ${seed}`},
+    body: `reply ${seed}`,
+    assigned_to: null,
+    attachments: [],
+    created_at: 1539897200,
+    external_id: null,
+    id: `${seed}`,
+    notified_at: 1539897200,
+    part_type: 'comment',
+    type: 'conversation_part',
+    updated_at: 1539897200,
+    redacted: false,
+    ...overrides,
+});

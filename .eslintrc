@@ -1,0 +1,19 @@
+{
+    "env": {
+        "es6": true,
+        "jest": true,
+        "node": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:n/recommended-module",
+        "plugin:jest/recommended",
+        "prettier"
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "rules": {
+        "n/no-unpublished-import": 0
+    }
+}
